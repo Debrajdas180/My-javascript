@@ -1,0 +1,4 @@
+FULL FORMS :-
+DOM - DOCUMENT OBJECT MODEL
+AJAX - Asynchronous JavaScript And XML.
+ECMA - European Computer Manufacturers Association.
