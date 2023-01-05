@@ -33,3 +33,26 @@ console.log("Debraj is a good boy \r Debraj"); //escape sequence character for c
 console.log("Debraj is a good boy \f Debraj"); //escape sequence character for form feed (new page)
 console.log("Debraj is a good boy \b Debraj"); //escape sequence character for backspace
 
+var str = "This is a string";
+console.log(str);
+var position = str.indexOf("is"); // for knowing the value of index of a letter 
+console.log(position) // once a variable declared then no second time decalre to as a var 
+var position = str.lastIndexOf("is"); // for knowing the value of index of a last letter 
+var substr1 = str.slice(1,6); // for getting the index of a sub string ** slice can take also negative values and will be print upto last before value
+var substr1 = str.substring(1,7); // for getting the specified index of a sub string ** substring can take only positive value and will be print upto last number (start index and end index)
+var substr1 = str.substr(1,7); // for getting the index of a sub string ** substr can take also negative values and (start index and length)
+console.log(substr1);
+var replaced = str.replace('string','Debraj'); // string word will be replaced by Debraj
+console.log(str);
+console.log(replaced);
+console.log(str.toUpperCase()); // converting text into Uppercase
+console.log(str.toLowerCase()); // converting text into Lowercase
+var newstr = str.concat('also a string class'); // for concatinate new string       
+var newstr = str + " new class "; // for concatinate new string in '+' method
+var str_with_white_space = '    LG is a      good electronics company     '
+console.log(str_with_white_space);
+console.log(str_with_white_space.trim()); // trim function will be removed first and last white spaces in a string 
+var char2 = str.charAt(2); // for extracting the charecter of str variable and index number 2 
+var char2 = str.charCodeAt(2); // for extracting the UTF16 code of the text
+console.log(char2);
+console.log(str[2]); // for extracting the index value of str 
