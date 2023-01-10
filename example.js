@@ -1,5 +1,9 @@
-var a = 78; //variable for integer values
-var b = "Debraj"; //variable for stringvr
+var a = 78; //variable for integer values, integer data type 
+var b = "Debraj"; //variable for string, string data type 
+var c = true; //variable for boolean values 
+var d = null;
+var e = undefined;
+
 console.log(a); //for printing the value of a var
 
 /* Operators in javaScript
@@ -56,3 +60,51 @@ var char2 = str.charAt(2); // for extracting the charecter of str variable and i
 var char2 = str.charCodeAt(2); // for extracting the UTF16 code of the text
 console.log(char2);
 console.log(str[2]); // for extracting the index value of str 
+
+let a = 65; //let is a block element , it will be never use to the same variable 
+let a = 46; // this time it can't be used for let . a can only use at the time of inside of a function 
+
+const b = 56; // const means constatnt . use for making a particular value a constant in whole programme 
+
+//exapmle of if and else condition
+age = 5 ;
+if (age>18){
+    console.log("you can drink");
+}
+else if (age==2){
+    console.log("age is 2");
+}
+else if (age==5){
+    console.log("age is 5");
+}
+else{
+    console.log("you can't drink");
+}
+
+//example of switch case 
+cup = 45;
+switch (cup) {
+    case 45:
+        console.log("the is value is not correct");
+        break;
+
+    default:console.log("the value is correct");
+        break;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
