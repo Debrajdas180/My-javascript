@@ -9,7 +9,7 @@ console.log(a); //for printing the value of a var
 /* Operators in javaScript
 In 3 + 4 '+' is the operator and 3,4 are operands 
 1. unary operators - It has single operand (x = -x)
-2. binary operators - It has two oprand (x = x+6) */
+2. binary operators - It has two oprand (x = x+6) */ 
 
 // oprand - entities on which operators operate
 var num1 = 6;
@@ -92,8 +92,36 @@ switch (cup) {
         break;
 }
 
+// basic to declare a object 
+let employee = {
+    Name : "debraj" ,
+    age : 22,
+    height : 180,
+    weight : 64,
+}
 
+// example of how to access element of a object 
+console.log(employee.Name);
+console.log(employee['age']);
 
+// basic structure of a array
+let names = [1,2,3,debraj,undefined]; // creating of a array
+let Names = new array (1,2,3,debraj,undefined); // creating array in a new style
+let Name = new array (23); // creating a array with having of 23 blank spaces
+console.log(names.length); // for knowing length of the name array 
+console.log(names.sort); // for sorting the items inside of the array element
+names.push ("this is pushed"); // for adding item in the array 
+
+// example of creating a function 
+function greet (name, greetext){
+    console.log(greetext + " " + name);
+    console.log(name + " is a good boy ");
+}
+let greetext = "Good Morning";
+let name = "debraj" ;
+let name1 = "sujit" ;
+let name2 = "raju" ;
+let name3 = "arpan" ;
 
 
 
