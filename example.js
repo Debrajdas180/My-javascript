@@ -105,34 +105,89 @@ console.log(employee.Name);
 console.log(employee['age']);
 
 // basic structure of a array
-let names = [1,2,3,debraj,undefined]; // creating of a array
-let Names = new array (1,2,3,debraj,undefined); // creating array in a new style
+let names = [1,2,3,"debraj",undefined]; // creating of a array
+let Names = new array (1,2,3,"debraj",undefined); // creating array in a new style
 let Name = new array (23); // creating a array with having of 23 blank spaces
 console.log(names.length); // for knowing length of the name array 
 console.log(names.sort); // for sorting the items inside of the array element
-names.push ("this is pushed"); // for adding item in the array 
+names.push ("this is pushed"); // for adding item in the array at the end
 
 // example of creating a function 
-function greet (name, greetext){
+function greet (name, greetext="greetings from javascript"){
+    let name = "name"; // this is a local variable for that it will never effect on the out side of the function 
     console.log(greetext + " " + name);
     console.log(name + " is a good boy ");
-}
+} // default value of greetext is greeting from javascript 
 let greetext = "Good Morning";
 let name = "debraj" ;
 let name1 = "sujit" ;
 let name2 = "raju" ;
 let name3 = "arpan" ;
 
+greet(name,greetext);
+greet(name1,greetext);
+greet(name2,greetext);
+greet(name3);
 
+// example of function which return something
+function sum(a,b,c) {
+    let d = a + b + c ;
+    return d ;
+    // after return called any line will not be executed
+    // console.log("Function is returned")
+}
+ sum(1,2,3);
 
+// example of alert function  
+alert("DO YOU WANT TO LEAVE ME ??") // alert function take argument as a string only , also does not return anything
 
+//example of prompt 
+let name = prompt("What is your name ?" , "Guest");
+console.log(name);
 
+// example of confirm 
+let deletepost = confirm ("DO YOU WNAT TO DELETE THS POST ?"); // it returns boolean values
+console.log(deletepost);
+   
+if(deletepost){
+    console.log("Your post has been deleted");
+}
+else{
+    console.log("Your post has not been deleted");
+}
 
+// example of for loop 
+i = 0 ;
+for (i=0; i<3; i++){
+    console.log(i);
+}
 
+// example fo for loop in array style for printing the elements of the array
+let friends = ["debraj","ram","arpan","raju","sujit"];
+for (let index = 0; index < friends.length; index++) {
+    console.log(friends[index]);
+}
 
+// for printing the upper array in the modern javascript style using forEach function 
+friends.forEach(function f(element){
+    console.log(element);
+});
+// for printing the upper array in the modern javascript style using for of function 
+for (element of friends){
+    console.log("Hello friends" + element + "this is modern java Script");
+}
+// example of iterate over object in for loop method at javascript
+let char = { 
+    Name: "debraj",
+    age: 22,
+    weight: 64,
+}
 
+for (key in char){
+    console.log(`the ${key} of the employee is ${employee[key]}`);
+}
 
-
-
-
-
+i = 0;
+while(i<45){
+ console.log(`i is less than 45`);   
+}

@@ -8,21 +8,16 @@
   </head>
   <body>
     <script>
-   
-// example of creating a function 
-function greet (name, greetext){
-  console.log(greetext + " " + name);
-  console.log(name + " is a good boy");
-}
-let greetext = "Good Morning";
-let name ="debraj" ;
-let name1 ="sujit" ;
-let name2 ="raju" ;
-let name3 ="arpan" ;
-greet (name, greetext);
-greet (name1, greetext);
-greet (name2, greetext);
-greet (name3, greetext);
+      // example of iterate over object in for loop method at javascript
+      let char = {
+        Name: "debraj",
+        age: 22,
+        weight: 64,
+      };
+
+      for (key in char) {
+        console.log(`the ${key} of the employee is ${char[key]}`);
+      }
     </script>
   </body>
 </html>
