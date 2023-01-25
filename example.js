@@ -33,7 +33,7 @@ var len = name.length;//for know the value of the string
 console.log(`The length of the name var is ${len}`);
 console.log("Debraj is a good boy \n Debraj"); //escape sequence character for new line 
 console.log("Debraj is a good boy \t Debraj"); //escape sequence character for horizontal tab 
-console.log("Debraj is a good boy \r Debraj"); //escape sequence character for carriage return 
+console.log("Debraj is a good boy \r Debraj"); //escape sequence character for carriage return (which means start from a first of line)
 console.log("Debraj is a good boy \f Debraj"); //escape sequence character for form feed (new page)
 console.log("Debraj is a good boy \b Debraj"); //escape sequence character for backspace
 
@@ -186,8 +186,14 @@ let char = {
 for (key in char){
     console.log(`the ${key} of the employee is ${employee[key]}`);
 }
-
+// example of while loop in 
 i = 0;
 while(i<45){
  console.log(`i is less than 45`);   
 }
+// example of do while loop 
+i = 9;
+do {
+  document.write("<h2> My name is Debraj</h2>");
+  i++;
+} while (i < 11);

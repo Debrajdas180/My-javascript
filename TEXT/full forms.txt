@@ -2,3 +2,9 @@ FULL FORMS :-
 DOM - DOCUMENT OBJECT MODEL
 AJAX - Asynchronous JavaScript And XML.
 ECMA - European Computer Manufacturers Association.
+JSON - Java script object notation
+DOM - Dcoment object Model
+
+
+` this symbol called backticks
+~ this symbol called tilda
