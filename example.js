@@ -197,3 +197,7 @@ do {
   document.write("<h2> My name is Debraj</h2>");
   i++;
 } while (i < 11);
+
+/* Defination of DOM Manipulation :-
+ In website development, DOM stands for Document Object Model. It is a programming interface that allows us to create, change, or remove elements from a website document. DOM manipulation is when you use JavaScript to add, remove, and modify elements of a website */
+
