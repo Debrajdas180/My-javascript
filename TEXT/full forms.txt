@@ -7,4 +7,4 @@ DOM - Dcoment object Model
 
 
 ` this symbol called backticks
-~ this symbol called tilda
+~ this symbol called tilda 
