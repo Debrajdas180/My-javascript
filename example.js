@@ -1,3 +1,4 @@
+
 var a = 78; //variable for integer values, integer data type 
 var b = "Debraj"; //variable for string, string data type 
 var c = true; //variable for boolean values 
@@ -101,8 +102,8 @@ let employee = {
 }
 
 // example of how to access element of a object 
-console.log(employee.Name);
-console.log(employee['age']);
+console.log(employee.Name);// this is print the element of the array 
+console.log(employee['age']);// this is also same print the element of the array in another method
 
 // basic structure of a array
 let names = [1,2,3,"debraj",undefined]; // creating of a array
